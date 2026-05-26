@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Disdat",
+    "slug": "disdat",
+    "scheme": "disdat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.disdat.app"
+    },
+    "android": {
+      "package": "com.disdat.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"]
+  }
+}
